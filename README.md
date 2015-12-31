@@ -5,7 +5,7 @@ Different from traditional deep learning tasks like image or speech recognition,
 
 This work tries to address the above problems and the experiment results are promising. The corresponding research paper "Deep Learning over Multi-Field Categorical Data: A Case Study on User Response Prediction" has been accepted and will be published in ECIR 2016.
 
-Note that this is just the authors' *first* attempt of training DNN models to predict ad click-through rate. Significant efforts on research and engineering will be made on this direction.
+Note that this is just the authors' *first* attempt of training DNN models to predict ad click-through rate. Significant efforts on research and engineering will be made further on this project.
 
 More any questions please contact [Weinan Zhang](http://www0.cs.ucl.ac.uk/staff/w.zhang/) (w.zhang@cs.ucl.ac.uk) and Tianming Du (dutianming@quicloud.cn).
 
