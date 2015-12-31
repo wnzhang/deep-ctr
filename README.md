@@ -20,3 +20,6 @@ python SNN_DAE.py  # for SNN_DAE
 python SNN_RBM.py  # for SNN_RBM
 ```
 The descriptions of the proposed models (FNN, SNN) are available in the above research paper, which will be available soon.
+
+
+Thanks
