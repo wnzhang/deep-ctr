@@ -1,5 +1,5 @@
 # Deep Learning for Ad CTR Estimation
-This repository is the authors' *first* attempt of training DNN models to predict ad click-through rate, implemented with `Theano`.
+This repository hosts the code of several proposed deep learning models for estimating ad click-through rates, implemented with `Theano`.
 
 Different from traditional deep learning tasks like image or speech recognition, where neural nets work well on continuous dense input features, for ad click-through rate estimation task, the input features are almost *categorical* and of *multiple field.* For example, the input context feature could be *City=London*, *Device=Mobile*. Such multi-field categorical features are always transformed into sparse binary features via one-hot encoding, normally millions of dimensions. Tranditional DNNs cannot work well on such input data beacuse of the large dimension and high sparsity.
 
