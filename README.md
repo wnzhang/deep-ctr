@@ -21,5 +21,8 @@ python SNN_RBM.py  # for SNN_RBM
 ```
 The descriptions of the proposed models (FNN, SNN) are available in the above research paper, which will be available soon.
 
-
+*Note:* directly running above code only checks the success of system installation. The input training/test are very small sample datasets, where the deep models are not effective. For large-scale datasets, please refer
+* [iPinYou data formalizing repository](https://github.com/wnzhang/make-ipinyou-data)
+* [Cretio 1T dataset](http://labs.criteo.com/downloads/download-terabyte-click-logs/)
+* etc.
 
