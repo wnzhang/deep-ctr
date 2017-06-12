@@ -1,4 +1,7 @@
 # Deep Learning for Ad CTR Estimation
+
+NOTE: we have upgraded the code of this repository [here](https://github.com/Atomu2014/product-nets) with TensorFlow and more advanced models in our new paper [Product-based Neural Network for User Response Prediction](https://arxiv.org/abs/1611.00144).
+
 This repository hosts the code of several proposed deep learning models for estimating ad click-through rates, implemented with `Theano`. The research paper [Deep Learning over Multi-field Categorical Data – A Case Study on User Response Prediction](http://www0.cs.ucl.ac.uk/staff/w.zhang/rtb-papers/deep-ctr.pdf) has been published on ECIR 2016.
 
 Different from traditional deep learning tasks like image or speech recognition, where neural nets work well on continuous dense input features, for ad click-through rate estimation task, the input features are almost *categorical* and of *multiple field.* For example, the input context feature could be *City=London*, *Device=Mobile*. Such multi-field categorical features are always transformed into sparse binary features via one-hot encoding, normally millions of dimensions. Tranditional DNNs cannot work well on such input data beacuse of the large dimension and high sparsity.
